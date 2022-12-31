@@ -1,0 +1,17 @@
+.distignore
+.eslintrc.js
+.prettierrc
+.git
+.github
+.gitignore
+CHANGELOG.md
+CONTRIBUTING.md
+README.md
+LICENSE.txt
+Refreshed-*.zip
+composer.json
+composer.lock
+db
+docker-compose.yml
+node_modules
+package*.json
