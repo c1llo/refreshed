@@ -4,6 +4,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## 0.1.0
 
-### Feat
+### Chore
 
 * Initial release 0.1.0
