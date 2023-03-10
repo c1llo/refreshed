@@ -1,0 +1,12 @@
+.distignore
+.eslintrc.js
+.prettierrc
+.git
+.github
+.gitignore
+CHANGELOG.md
+README.md
+LICENSE.md
+Refreshed-*.zip
+composer.json
+composer.lock

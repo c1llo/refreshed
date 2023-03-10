@@ -1,0 +1,20 @@
+{
+  "name": "c1llo/refreshed",
+  "version": "0.1.0",
+  "description": "A better editing & development experience with the Refreshed  Wordpress plugin. This plugin automatically refreshes the browser whenever a page or post is updated.",
+  "scripts": {
+    "post-install-cmd": "composer run config-phpcs",
+    "post-update-cmd" : "composer run config-phpcs",
+    "config-phpcs": "phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs",
+    "lint": "phpcs --standard=phpcs.xml **/*.php",
+    "build": "wp dist-archive"
+  },
+  "require": {
+    "htmlburger/carbon-fields": "^3.3",
+    "php": ">=5.6"
+  },
+  "require-dev": {
+    "wp-coding-standards/wpcs": "^2.3",
+    "squizlabs/php_codesniffer": "^3.7"
+  }
+}
