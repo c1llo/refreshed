@@ -2,7 +2,7 @@ on: [push, pull_request]
 
 jobs:
   lint:
-    name: Package and release
+    name: Lint
     runs-on: ubuntu-latest
 
     steps:
